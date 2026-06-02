@@ -160,7 +160,7 @@ If you use mmrag-eval in your research, please cite:
 
 ```bibtex
 @software{mmrag_eval,
-  author  = {Banerjee, Ritaban},
+  author  = {Bhattacharya, Ritaban},
   title   = {{mmrag-eval}: Benchmark for Evaluating Grounding Quality in Multimodal RAG Systems},
   year    = {2026},
   url     = {https://github.com/ritabanb/mmrag-eval},
