@@ -7,3 +7,6 @@ build/
 .pytest_cache/
 .coverage
 *.ipynb_checkpoints/
+scripts/thumbnails/
+scripts/wikimedia_candidates.json
+scripts/__pycache__/

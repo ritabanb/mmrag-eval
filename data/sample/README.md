@@ -59,8 +59,8 @@ Each record in `dataset.json` has the following fields:
 
 | Query type | Count |
 |---|---|
-| `factual` | 25 |
-| `visual_description` | 25 |
+| `factual` | 27 |
+| `visual_description` | 23 |
 
 ---
 
@@ -108,7 +108,7 @@ mmrag-eval project and are released under the same MIT license as the rest of th
 
 | Version | Samples | Status | Notes |
 |---|---|---|---|
-| **v0.1** | 50 | ✅ Released | Wikimedia Commons images, CC BY-SA 4.0, auto-annotated queries |
+| **v0.1** | 50 | ✅ Released | Wikimedia Commons images, CC BY-SA 4.0, manually reviewed annotations |
 | v0.2 | 200 | Planned | Human-verified grounding labels; multi-image queries |
 | v1.0 | 1000 | Planned | HuggingFace Hub release; public leaderboard |
 
@@ -116,6 +116,5 @@ mmrag-eval project and are released under the same MIT license as the rest of th
 
 ## Known Limitations (v0.1)
 
-- 2 records are marked `needs_review: true` and have placeholder reference answers pending manual verification: `Logistic Regression in SPSS.png` (SPSS output table, domain-specific content) and `Wikidataetl.png` (dense SPARQL pipeline, too complex for auto-annotation).
-- All reference answers were generated based on direct visual inspection of each image; no reference answers were generated from filenames alone.
+- All reference answers were based on direct visual inspection of each image; no answers were generated from filenames alone.
 - Images are from a single source (Wikimedia Commons) and skew toward English-language diagrams, with a small number in Hindi, Malay, and Spanish.
