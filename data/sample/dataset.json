@@ -309,18 +309,17 @@
   },
   {
     "id": "mmrag-v0-023",
-    "query": "Describe the statistical output table shown in this image.",
-    "query_type": "visual_description",
-    "image_path": "data/sample/images/Logistic Regression in SPSS.png",
-    "image_filename": "Logistic Regression in SPSS.png",
-    "reference_answer": "The image shows an SPSS output table titled 'Variables in the Equation' for a logistic regression model, with columns for coefficient (B), standard error (S.E.), Wald statistic, degrees of freedom (df), significance (Sig.), odds ratio Exp(B), and 95% confidence intervals for Exp(B). Three predictors are listed: total coffee, total energy drinks, and total soda intake per week. This is a software-generated results table rather than a conceptual architecture diagram.",
+    "query": "What are the three computational steps shown in the logistic regression diagram on the left side of this figure?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Logistic Regression.png",
+    "image_filename": "Logistic Regression.png",
+    "reference_answer": "The three steps shown are: Sum (a weighted combination of inputs x₁, x₂ and bias b converging into a summation node), Sigmoid (a non-linear activation function that squashes the sum into a probability), and Output (the final predicted probability p). On the right side, a scatter plot shows two classes of data points separated by a dashed linear decision boundary, illustrating the classification result of the model.",
     "grounding_labels": [
-      "data/sample/images/Logistic Regression in SPSS.png"
+      "data/sample/images/Logistic Regression.png"
     ],
-    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Logistic_Regression_in_SPSS.png",
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logistic_Regression.png",
     "license": "CC BY-SA 4.0",
-    "source": "Wikimedia Commons",
-    "needs_review": true
+    "source": "Wikimedia Commons"
   },
   {
     "id": "mmrag-v0-024",
@@ -492,18 +491,17 @@
   },
   {
     "id": "mmrag-v0-036",
-    "query": "Describe the overall structure of the data pipeline shown in this diagram.",
-    "query_type": "visual_description",
-    "image_path": "data/sample/images/Wikidataetl.png",
-    "image_filename": "Wikidataetl.png",
-    "reference_answer": "The diagram shows a complex directed-graph ETL pipeline for Wikidata with dozens of interconnected nodes including HTTP Requests, SPARQL construct operations, JSON-to-JSON-LD conversions, and RDF single-graph transformations. Multiple parallel pipeline branches converge through Union nodes before feeding into SPARQL update and endpoint operations. The high density of domain-specific SPARQL components makes this a specialized linked-data ingestion workflow.",
+    "query": "How many data sources feed into the ETL process shown in this diagram, and what is the final destination?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Datawarehouse.png",
+    "image_filename": "Datawarehouse.png",
+    "reference_answer": "Three data sources—Data Source A, Data Source B, and Data Source C—feed into the ETL block via arrows. The ETL block (Extract, Transform, Load) then outputs the processed data via a single arrow to a Data Warehouse on the right. The diagram illustrates the fundamental data integration pattern where multiple heterogeneous sources are consolidated into a single analytical store through an ETL process.",
     "grounding_labels": [
-      "data/sample/images/Wikidataetl.png"
+      "data/sample/images/Datawarehouse.png"
     ],
-    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Wikidataetl.png",
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Datawarehouse.png",
     "license": "CC BY-SA 4.0",
-    "source": "Wikimedia Commons",
-    "needs_review": true
+    "source": "Wikimedia Commons"
   },
   {
     "id": "mmrag-v0-037",
