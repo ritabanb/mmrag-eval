@@ -181,6 +181,7 @@ If you use mmrag-eval in your research, please cite:
   title   = {{mmrag-eval}: Benchmark for Evaluating Grounding Quality in Multimodal RAG Systems},
   year    = {2026},
   url     = {https://github.com/ritabanb/mmrag-eval},
+  note    = {Dataset: https://huggingface.co/datasets/ritaban-b/mmrag-eval},
 }
 ```
 
