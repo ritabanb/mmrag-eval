@@ -44,7 +44,7 @@ Penalizes retrieval pipelines that return near-duplicate images. Uses perceptual
 ## Quickstart
 
 ```bash
-pip install mmrag-eval
+pip install git+https://github.com/ritabanb/mmrag-eval.git
 ```
 
 ```python
@@ -125,7 +125,7 @@ def gpt4v_grounding(image_path: str, text: str) -> float:
     with open(image_path, "rb") as f:
         b64 = base64.b64encode(f.read()).decode()
     response = openai.chat.completions.create(
-        model="gpt-4-vision-preview",
+        model="gpt-4o",
         messages=[{
             "role": "user",
             "content": [

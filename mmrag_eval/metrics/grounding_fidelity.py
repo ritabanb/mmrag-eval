@@ -21,7 +21,12 @@ def clip_similarity(
     text: str,
     model_name: str = "openai/clip-vit-base-patch32",
 ) -> float:
-    """Cosine similarity between image and text embeddings, mapped to [0, 1] via sigmoid."""
+    """
+    Cosine similarity between CLIP image and text embeddings, in [0, 1].
+    Computed from the normalized feature vectors directly — not from logits_per_image,
+    which are scaled by ~100 and would saturate any sigmoid.
+    Result is shifted from [-1, 1] to [0, 1] via (sim + 1) / 2.
+    """
     import torch
     from PIL import Image
 
@@ -29,9 +34,15 @@ def clip_similarity(
     image = Image.open(image_path).convert("RGB")
     inputs = processor(text=[text], images=image, return_tensors="pt", padding=True)
     with torch.no_grad():
-        out = model(**inputs)
-        sim = torch.sigmoid(out.logits_per_image).item()
-    return sim
+        image_features = model.get_image_features(pixel_values=inputs["pixel_values"])
+        text_features = model.get_text_features(
+            input_ids=inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+        )
+        image_features = image_features / image_features.norm(dim=-1, keepdim=True)
+        text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+        cosine_sim = (image_features @ text_features.T).item()
+    return (cosine_sim + 1) / 2
 
 
 def score(
