@@ -1,0 +1,704 @@
+[
+  {
+    "id": "mmrag-v0-001",
+    "query": "What are the four main processing stages of the convolutional neural network shown in this diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Convolutional-Neural-Network-Hindi.png",
+    "image_filename": "Convolutional-Neural-Network-Hindi.png",
+    "reference_answer": "The diagram shows four main stages: input (image), feature learning through alternating convolutional and pooling layers, flattening, and classification via fully connected layers leading to output probabilities. Each convolutional stage extracts increasingly abstract spatial features. The pooling layers reduce spatial dimensions between convolutions to control the number of parameters.",
+    "grounding_labels": [
+      "data/sample/images/Convolutional-Neural-Network-Hindi.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Convolutional-Neural-Network-Hindi.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-002",
+    "query": "Describe the architecture of the neural network shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Convolutional Neural Network.png",
+    "image_filename": "Convolutional Neural Network.png",
+    "reference_answer": "The diagram shows a convolutional neural network with alternating convolutional and pooling layers followed by fully connected layers. The network processes an input image through multiple feature maps that progressively increase in depth while decreasing in spatial size. The final fully connected layers map the learned representations to class output scores.",
+    "grounding_labels": [
+      "data/sample/images/Convolutional Neural Network.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Convolutional_Neural_Network.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-003",
+    "query": "What two processing directions are shown in the Neural Abstraction Pyramid, and what role does each direction serve?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Neural Abstraction Pyramid.jpg",
+    "image_filename": "Neural Abstraction Pyramid.jpg",
+    "reference_answer": "The left (bottom-up) direction is data-driven and performs analysis and feature extraction from raw signals upward toward abstract features. The right (top-down) direction is model-driven and performs synthesis and feature expansion back toward the signal level. At the base level, lateral connections labeled grouping, competition, and completion operate horizontally across the widest layer.",
+    "grounding_labels": [
+      "data/sample/images/Neural Abstraction Pyramid.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Neural_Abstraction_Pyramid.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-004",
+    "query": "Describe the multi-model architecture shown in this deep learning diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Random Multimodel Deep Learning (RMDL).png",
+    "image_filename": "Random Multimodel Deep Learning (RMDL).png",
+    "reference_answer": "The diagram shows a Random Multimodel Deep Learning (RMDL) architecture that combines three parallel model types—DNN, CNN, and RNN—all sharing the same input layer on the left. Each model type processes the input independently through its own hidden layers with distinct connectivity patterns. Their outputs are aggregated on the right side through a pooling mechanism to produce the final prediction.",
+    "grounding_labels": [
+      "data/sample/images/Random Multimodel Deep Learning (RMDL).png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Random_Multimodel_Deep_Learning_%28RMDL%29.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-005",
+    "query": "How many layers does the neural network in this diagram contain, and what type is each?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Perceptron 4layers.png",
+    "image_filename": "Perceptron 4layers.png",
+    "reference_answer": "The network contains four layers: one input layer, two hidden layers, and one output layer. Each node in a layer is connected to every node in the adjacent layer, forming a fully connected multilayer perceptron architecture. Connections flow feedforward from left to right with no recurrent links visible.",
+    "grounding_labels": [
+      "data/sample/images/Perceptron 4layers.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Perceptron_4layers.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-006",
+    "query": "Describe the attention mechanism illustrated in this detailed transformer decoder diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Decoder self-attention with causal masking, detailed diagram.png",
+    "image_filename": "Decoder self-attention with causal masking, detailed diagram.png",
+    "reference_answer": "The diagram shows masked multi-head self-attention in a transformer decoder, where a causal mask is applied so that each position can attend only to itself and earlier positions. The mechanism computes scaled dot-product attention between queries, keys, and values derived from the same sequence, with masking applied before the softmax. The output passes through an add-and-normalize residual connection before moving to the next sub-layer.",
+    "grounding_labels": [
+      "data/sample/images/Decoder self-attention with causal masking, detailed diagram.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Decoder_self-attention_with_causal_masking%2C_detailed_diagram.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-007",
+    "query": "What are the three inputs to the multi-head attention block shown in this diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Multiheaded attention, block diagram.png",
+    "image_filename": "Multiheaded attention, block diagram.png",
+    "reference_answer": "The three inputs are queries (Q), keys (K), and values (V), each passed through separate linear projection layers before attention is computed. The projections are divided across multiple parallel attention heads, each operating on a lower-dimensional subspace. The outputs of all heads are concatenated and projected through a final linear layer to restore the original dimensionality.",
+    "grounding_labels": [
+      "data/sample/images/Multiheaded attention, block diagram.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Multiheaded_attention%2C_block_diagram.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-008",
+    "query": "Describe the self-attention computation illustrated in this detailed encoder diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Encoder self-attention, detailed diagram.png",
+    "image_filename": "Encoder self-attention, detailed diagram.png",
+    "reference_answer": "The diagram shows the step-by-step computation of self-attention in a transformer encoder, including linear projections to produce Q, K, and V matrices, the scaled dot-product between queries and keys, softmax normalization to obtain attention weights, and the weighted sum over values. The resulting attended representation is combined with the original input through a residual connection followed by layer normalization.",
+    "grounding_labels": [
+      "data/sample/images/Encoder self-attention, detailed diagram.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Encoder_self-attention%2C_detailed_diagram.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-009",
+    "query": "What sub-components are visible inside the encoder self-attention block shown in this diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Encoder self-attention, block diagram.png",
+    "image_filename": "Encoder self-attention, block diagram.png",
+    "reference_answer": "The block contains a multi-head self-attention layer followed by a position-wise feed-forward network. Each sub-layer is wrapped with a residual skip connection that adds the sub-layer input to its output, followed by layer normalization. The block's input and output dimensions are identical, allowing multiple such blocks to be stacked to form the full encoder.",
+    "grounding_labels": [
+      "data/sample/images/Encoder self-attention, block diagram.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Encoder_self-attention%2C_block_diagram.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-010",
+    "query": "What two main sub-layers does the single transformer encoder block in this diagram contain?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Transformer, one encoder block.png",
+    "image_filename": "Transformer, one encoder block.png",
+    "reference_answer": "The encoder block contains a multi-head self-attention sub-layer and a position-wise feed-forward sub-layer. Both sub-layers use add-and-normalize wrappers that apply a residual connection followed by layer normalization. This two-sub-layer structure is repeated N times in the stacked transformer encoder.",
+    "grounding_labels": [
+      "data/sample/images/Transformer, one encoder block.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Transformer%2C_one_encoder_block.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-011",
+    "query": "Describe the overall structure of the transformer architecture shown in this diagram of stacked layers.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Transformer, stacked layers and sublayers.png",
+    "image_filename": "Transformer, stacked layers and sublayers.png",
+    "reference_answer": "The diagram shows the full transformer encoder-decoder structure with multiple identical layers stacked on each side. Each encoder layer contains self-attention and feed-forward sub-layers, while each decoder layer adds a cross-attention sub-layer that attends to the encoder output. Positional encodings are added to the input embeddings on both the encoder and decoder sides before entering the stack.",
+    "grounding_labels": [
+      "data/sample/images/Transformer, stacked layers and sublayers.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Transformer%2C_stacked_layers_and_sublayers.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-012",
+    "query": "How many distinct sub-layers does the single transformer decoder block in this diagram contain?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Transformer, one decoder block.png",
+    "image_filename": "Transformer, one decoder block.png",
+    "reference_answer": "The decoder block contains three sub-layers: masked multi-head self-attention, encoder-decoder cross-attention that takes keys and values from the encoder output, and a position-wise feed-forward network. Each sub-layer is followed by a residual connection and layer normalization, mirroring the encoder structure but with the additional cross-attention component.",
+    "grounding_labels": [
+      "data/sample/images/Transformer, one decoder block.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Transformer%2C_one_decoder_block.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-013",
+    "query": "Describe the encoder-decoder pair shown in this transformer diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Transformer, one encoder-decoder block.png",
+    "image_filename": "Transformer, one encoder-decoder block.png",
+    "reference_answer": "The diagram shows one encoder block paired with one decoder block side by side. The encoder processes the input sequence through self-attention and feed-forward sub-layers to produce a context representation. The encoder output feeds into the decoder's cross-attention sub-layer, allowing the decoder to attend to all encoder positions while auto-regressively generating each output token.",
+    "grounding_labels": [
+      "data/sample/images/Transformer, one encoder-decoder block.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Transformer%2C_one_encoder-decoder_block.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-014",
+    "query": "What are the two main components of the sequence model architecture shown in this diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Basic Encoder-Decoder Architecture.png",
+    "image_filename": "Basic Encoder-Decoder Architecture.png",
+    "reference_answer": "The architecture consists of an encoder and a decoder. The encoder reads the full input sequence and compresses it into a context representation, which the decoder then uses to generate the output sequence one element at a time. This forms the foundational sequence-to-sequence structure used in tasks such as machine translation and text summarization.",
+    "grounding_labels": [
+      "data/sample/images/Basic Encoder-Decoder Architecture.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Basic_Encoder-Decoder_Architecture.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-015",
+    "query": "Describe the recurrent neural network architecture shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Bidirectional recurrent neural network.png",
+    "image_filename": "Bidirectional recurrent neural network.png",
+    "reference_answer": "The diagram shows a bidirectional RNN where two separate recurrent layers process the same input sequence in opposite directions—one forward (left to right) and one backward (right to left). At each time step the hidden states from both directions are concatenated and passed to the output layer. This design lets the network incorporate context from both past and future positions when making predictions at each step.",
+    "grounding_labels": [
+      "data/sample/images/Bidirectional recurrent neural network.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bidirectional_recurrent_neural_network.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-016",
+    "query": "Describe the decision tree visualization shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Scikit-learn machine learning decision tree.png",
+    "image_filename": "Scikit-learn machine learning decision tree.png",
+    "reference_answer": "The diagram shows a decision tree trained using scikit-learn, with internal nodes displaying a feature-based split condition, Gini impurity value, sample count, and majority class at each node. Branches extend left for samples satisfying the condition and right for those that do not. Leaf nodes at the bottom show the final predicted class along with the sample distribution reaching that leaf.",
+    "grounding_labels": [
+      "data/sample/images/Scikit-learn machine learning decision tree.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Scikit-learn_machine_learning_decision_tree.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-017",
+    "query": "What are the five stages shown in this machine learning workflow diagram, listed from left to right?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Workflow of a machine-learning-based AI system.png",
+    "image_filename": "Workflow of a machine-learning-based AI system.png",
+    "reference_answer": "The five stages are: Inputs (raw data sources), Training or Development (where the model is trained, represented by interlocking gears), Trained Model (the learned artifact), Inference or Deployment (where the model makes predictions on new data), and Outputs (predictions or decisions). A dashed feedback arrow at the bottom labeled 'new inputs' connects the output back to the system, indicating the possibility of retraining or online learning.",
+    "grounding_labels": [
+      "data/sample/images/Workflow of a machine-learning-based AI system.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Workflow_of_a_machine-learning-based_AI_system.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-018",
+    "query": "What geometric elements define the decision boundary in the support vector machine diagram shown?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Mesin Sokongan Vektor.png",
+    "image_filename": "Mesin Sokongan Vektor.png",
+    "reference_answer": "The diagram shows a hyperplane labeled 'Hiper satah' (hyperplane in Malay) separating two classes of data points represented as filled squares and circles. Two parallel margin lines labeled 'Vektor sokongan' (support vectors) flank the hyperplane and pass through the nearest data points of each class. The SVM objective is to maximize the width of the margin between these two lines.",
+    "grounding_labels": [
+      "data/sample/images/Mesin Sokongan Vektor.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mesin_Sokongan_Vektor.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-019",
+    "query": "Describe what the margin lines and decision boundary represent in this SVM diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/SVM margins.png",
+    "image_filename": "SVM margins.png",
+    "reference_answer": "The diagram shows a linear SVM with a solid central decision boundary and two dashed margin lines equidistant from it on either side. The data points lying exactly on the dashed margin lines are the support vectors, which are the only training examples that determine the boundary's position. Maximizing the perpendicular distance between the two margin lines is the core optimization objective of the support vector machine.",
+    "grounding_labels": [
+      "data/sample/images/SVM margins.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/SVM_margins.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-020",
+    "query": "What does this diagram illustrate about the convergence behavior of the k-means algorithm?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/K-means convergence to a local minimum.png",
+    "image_filename": "K-means convergence to a local minimum.png",
+    "reference_answer": "The diagram illustrates that k-means can converge to a local minimum rather than the global optimum, resulting in a suboptimal cluster assignment. The centroids stabilize at positions that minimize within-cluster variance for the given initialization, but a different starting configuration could produce better-separated clusters. This sensitivity to initialization is a key limitation of the standard k-means algorithm.",
+    "grounding_labels": [
+      "data/sample/images/K-means convergence to a local minimum.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/K-means_convergence_to_a_local_minimum.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-021",
+    "query": "Describe the information presented in this multivariate statistical analysis reference table.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Table Explaining When to Use Different Multi-variate Statistical Analyses.jpg",
+    "image_filename": "Table Explaining When to Use Different Multi-variate Statistical Analyses.jpg",
+    "reference_answer": "The table provides a structured guide for selecting the appropriate multivariate statistical method based on the characteristics of the variables involved, such as their measurement scale and the number of dependent and independent variables. Rows and columns organize combinations of variable types and study designs, with each cell naming the recommended technique. The table allows researchers to quickly identify the correct analysis for a given data structure.",
+    "grounding_labels": [
+      "data/sample/images/Table Explaining When to Use Different Multi-variate Statistical Analyses.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Table_Explaining_When_to_Use_Different_Multi-variate_Statistical_Analyses.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-022",
+    "query": "What two characteristics of the variables determine which bivariate test to select, according to this reference table?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Table Explaining When to Use Different Bivariate Statistical Analyses.jpg",
+    "image_filename": "Table Explaining When to Use Different Bivariate Statistical Analyses.jpg",
+    "reference_answer": "The table organizes test selection primarily by the measurement scale of each variable (such as nominal, ordinal, or continuous) and the nature of the comparison being made (e.g., two independent groups vs. paired samples). Each cell in the table identifies the recommended statistical test for that combination, such as chi-squared for two nominal variables or a t-test for a continuous outcome with two independent groups.",
+    "grounding_labels": [
+      "data/sample/images/Table Explaining When to Use Different Bivariate Statistical Analyses.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Table_Explaining_When_to_Use_Different_Bivariate_Statistical_Analyses.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-023",
+    "query": "Describe the statistical output table shown in this image.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Logistic Regression in SPSS.png",
+    "image_filename": "Logistic Regression in SPSS.png",
+    "reference_answer": "The image shows an SPSS output table titled 'Variables in the Equation' for a logistic regression model, with columns for coefficient (B), standard error (S.E.), Wald statistic, degrees of freedom (df), significance (Sig.), odds ratio Exp(B), and 95% confidence intervals for Exp(B). Three predictors are listed: total coffee, total energy drinks, and total soda intake per week. This is a software-generated results table rather than a conceptual architecture diagram.",
+    "grounding_labels": [
+      "data/sample/images/Logistic Regression in SPSS.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Logistic_Regression_in_SPSS.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "needs_review": true
+  },
+  {
+    "id": "mmrag-v0-024",
+    "query": "How many probability distribution curves are shown in this diagram, and what are they named?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/PDF of H1 Logistic and H2.png",
+    "image_filename": "PDF of H1 Logistic and H2.png",
+    "reference_answer": "Three probability density function curves are shown: Hyperbolastic I (blue), Logistic (orange), and Hyperbolastic II (green). The x-axis spans approximately -4 to 5 and the y-axis shows PDF values from 0 to approximately 0.5. The Hyperbolastic II curve has the tallest and narrowest peak at x=0, while Hyperbolastic I has the lowest and flattest profile across the range.",
+    "grounding_labels": [
+      "data/sample/images/PDF of H1 Logistic and H2.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/PDF_of_H1_Logistic_and_H2.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-025",
+    "query": "Describe the reinforcement learning framework shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Rl agent.png",
+    "image_filename": "Rl agent.png",
+    "reference_answer": "The diagram illustrates the standard agent-environment interaction loop in reinforcement learning. At each time step the agent observes the current state of the environment, selects an action, and receives a scalar reward along with the next state. This cycle repeats iteratively as the agent learns a policy that maximizes cumulative discounted reward over time.",
+    "grounding_labels": [
+      "data/sample/images/Rl agent.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Rl_agent.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-026",
+    "query": "What are the four cells of the confusion matrix shown in this diagram, and what does each represent?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Confusion matrix.png",
+    "image_filename": "Confusion matrix.png",
+    "reference_answer": "The four cells are True Positives (actual positive, predicted positive), True Negatives (actual negative, predicted negative), False Positives (actual negative but predicted positive), and False Negatives (actual positive but predicted negative). The matrix is organized with actual class labels on one axis and predicted labels on the other. These four counts form the basis for computing precision, recall, F1 score, and accuracy.",
+    "grounding_labels": [
+      "data/sample/images/Confusion matrix.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Confusion_matrix.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-027",
+    "query": "Describe the layout of the binary confusion matrix shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Binary confusion matrix.jpg",
+    "image_filename": "Binary confusion matrix.jpg",
+    "reference_answer": "The diagram shows a 2×2 confusion matrix with actual class labels (positive and negative) on one axis and predicted class labels on the other. The four cells contain counts for true positives, false positives, false negatives, and true negatives, arranged so the main diagonal represents correct predictions. Shading or color is used to visually distinguish the diagonal (correct) cells from the off-diagonal (incorrect) cells.",
+    "grounding_labels": [
+      "data/sample/images/Binary confusion matrix.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Binary_confusion_matrix.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-028",
+    "query": "How many topic categories are represented by the ROC curves in this diagram, and which axis shows the false positive rate?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Drafttopic roc auc.jpg",
+    "image_filename": "Drafttopic roc auc.jpg",
+    "reference_answer": "Eight topic categories are shown, each as a separately colored curve: Culture.Arts, Geography.Countries, Geography.Europe, History_And_Society.Military and warfare, History_And_Society.Politics and government, STEM.Engineering, STEM.Science, and STEM.Technology. The x-axis (labeled Fpr) shows the false positive rate from 0 to 1, and the y-axis shows Recall from 0 to 1. Most curves cluster tightly in the upper-left corner, indicating strong classifier performance across all topic categories.",
+    "grounding_labels": [
+      "data/sample/images/Drafttopic roc auc.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Drafttopic_roc_auc.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-029",
+    "query": "Describe the evaluation curve shown in this diagram and the trade-off it illustrates.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Precision and Recall Curve.png",
+    "image_filename": "Precision and Recall Curve.png",
+    "reference_answer": "The diagram shows a precision-recall curve with precision on the y-axis and recall on the x-axis, both ranging from 0 to 1. The curve traces all achievable precision-recall pairs as the classification decision threshold is varied across its full range. Increasing recall typically reduces precision because lowering the threshold to capture more true positives also admits more false positives.",
+    "grounding_labels": [
+      "data/sample/images/Precision and Recall Curve.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Precision_and_Recall_Curve.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-030",
+    "query": "What trade-off does the shape of the precision-recall curve in this diagram illustrate?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Precision Recall Curve.png",
+    "image_filename": "Precision Recall Curve.png",
+    "reference_answer": "The curve illustrates the inverse trade-off between precision and recall as the classification threshold changes. At high thresholds the model predicts positive rarely, yielding high precision but low recall; at low thresholds it predicts positive frequently, increasing recall at the cost of precision. The area under the curve (AUC-PR) summarizes classifier performance across all threshold settings, with a perfect classifier achieving an area of 1.0.",
+    "grounding_labels": [
+      "data/sample/images/Precision Recall Curve.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Precision_Recall_Curve.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-031",
+    "query": "Describe the additional metric highlighted on this precision-recall curve diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/PR curve with optimal fscore.png",
+    "image_filename": "PR curve with optimal fscore.png",
+    "reference_answer": "The diagram shows a precision-recall curve with an optimal threshold point marked on the curve corresponding to the highest achievable F-score, the harmonic mean of precision and recall. Iso-F-score contour lines or a specific marker indicate the threshold at which the F1 score is maximized. This highlighted point represents the best single operating point that balances the precision-recall trade-off.",
+    "grounding_labels": [
+      "data/sample/images/PR curve with optimal fscore.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/PR_curve_with_optimal_fscore.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-032",
+    "query": "Describe the cross-validation strategy shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Random cross validation.jpg",
+    "image_filename": "Random cross validation.jpg",
+    "reference_answer": "The diagram illustrates random cross-validation across k iterations, with the full dataset shown as a horizontal row of colored balls representing training (green) and test (red/pink) samples. In each labeled iteration (Iteración 1 through Iteración k) a different randomly selected subset is boxed and designated as the test set (Datos de prueba) while the remaining samples train the model. The Spanish labels 'Total de datos' at the bottom indicate the complete dataset spans the full width of each row.",
+    "grounding_labels": [
+      "data/sample/images/Random cross validation.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Random_cross_validation.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-033",
+    "query": "What two performance curves are shown in this Naive Bayes learning curve diagram, and what does each measure?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Learning Curves (Naive Bayes).png",
+    "image_filename": "Learning Curves (Naive Bayes).png",
+    "reference_answer": "The diagram shows a training score curve and a cross-validation score curve, both plotted against increasing training set size on the x-axis. The training score measures performance on the training data itself, while the cross-validation score measures performance on held-out validation data. The gap between the two curves reveals whether the model is overfitting (large gap) or underfitting (both curves low and converged).",
+    "grounding_labels": [
+      "data/sample/images/Learning Curves (Naive Bayes).png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Learning_Curves_%28Naive_Bayes%29.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-034",
+    "query": "Describe the data splitting strategy shown in this K-fold cross-validation diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/K-Fold Cross-Validation.png",
+    "image_filename": "K-Fold Cross-Validation.png",
+    "reference_answer": "The diagram shows a dataset divided into K equal-sized folds arranged as colored blocks. In each of K rounds one fold serves as the validation set (highlighted differently) while the remaining K-1 folds form the training set. The model is trained and evaluated independently in each round, and the final performance estimate is the average across all K validation scores, reducing variance compared to a single train-test split.",
+    "grounding_labels": [
+      "data/sample/images/K-Fold Cross-Validation.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/K-Fold_Cross-Validation.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-035",
+    "query": "Into how many subsets is the dataset divided in this diagram, and what is each subset used for?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Train-Test-Validation.png",
+    "image_filename": "Train-Test-Validation.png",
+    "reference_answer": "The dataset is divided into three subsets: a training set used to fit the model parameters, a validation set used to tune hyperparameters and monitor for overfitting during development, and a test set held out until final evaluation to provide an unbiased estimate of generalization performance. This three-way split prevents information from the test set leaking into model selection decisions made during training.",
+    "grounding_labels": [
+      "data/sample/images/Train-Test-Validation.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Train-Test-Validation.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-036",
+    "query": "Describe the overall structure of the data pipeline shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Wikidataetl.png",
+    "image_filename": "Wikidataetl.png",
+    "reference_answer": "The diagram shows a complex directed-graph ETL pipeline for Wikidata with dozens of interconnected nodes including HTTP Requests, SPARQL construct operations, JSON-to-JSON-LD conversions, and RDF single-graph transformations. Multiple parallel pipeline branches converge through Union nodes before feeding into SPARQL update and endpoint operations. The high density of domain-specific SPARQL components makes this a specialized linked-data ingestion workflow.",
+    "grounding_labels": [
+      "data/sample/images/Wikidataetl.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Wikidataetl.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons",
+    "needs_review": true
+  },
+  {
+    "id": "mmrag-v0-037",
+    "query": "What are the four main stages of the AutoML pipeline shown in this diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/AutoML diagram.png",
+    "image_filename": "AutoML diagram.png",
+    "reference_answer": "The four stages are Data Preparation (data collection, cleaning, and augmentation), Model Engineering (feature selection, feature extraction, and feature construction feeding into a unified feature representation), Model Generation (a search space of traditional models such as SVM and KNN plus deep neural networks CNN and RNN, combined with optimization methods for hyperparameters and architecture), and Model Evaluation (strategies including low-fidelity approximations, early stopping, surrogate models, and weight-sharing).",
+    "grounding_labels": [
+      "data/sample/images/AutoML diagram.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/AutoML_diagram.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-038",
+    "query": "Describe the anomaly detection framework shown in this flowchart diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Framework anomaly detection.png",
+    "image_filename": "Framework anomaly detection.png",
+    "reference_answer": "The framework flows top-to-bottom through five stages: Input, Data Processing, Anomaly Detection, Output, and Evaluation. At the Anomaly Detection stage the flow branches into two parallel approaches—Supervised (which requires labeled data) and Unsupervised (which does not). Both branches converge at the Output stage, which further splits into Score (a continuous anomaly score) and Label (a binary anomalous/normal decision) before reaching the final Evaluation step.",
+    "grounding_labels": [
+      "data/sample/images/Framework anomaly detection.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Framework_anomaly_detection.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-039",
+    "query": "What network topology is shown in this architecture diagram, and how are the spine and leaf layers interconnected?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Distributed-Core-Leaf-Spine-Network-Architecture.jpeg",
+    "image_filename": "Distributed-Core-Leaf-Spine-Network-Architecture.jpeg",
+    "reference_answer": "The diagram shows a distributed core-leaf-spine network topology used in data center networking. Every leaf switch is connected to every spine switch, creating a full-mesh between the two layers with no direct leaf-to-leaf or spine-to-spine links. This design provides uniform low-latency paths between any two endpoints and eliminates single points of failure within the fabric.",
+    "grounding_labels": [
+      "data/sample/images/Distributed-Core-Leaf-Spine-Network-Architecture.jpeg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Distributed-Core-Leaf-Spine-Network-Architecture.jpeg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-040",
+    "query": "Describe the cloud computing architecture shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Cloud Computing Architecture.jpg",
+    "image_filename": "Cloud Computing Architecture.jpg",
+    "reference_answer": "The diagram illustrates a layered cloud computing architecture with client devices connecting through the internet to a stack of cloud service layers. The service layers are arranged vertically and typically represent Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) models. Shared physical hardware resources such as servers and storage underpin all service tiers at the bottom of the stack.",
+    "grounding_labels": [
+      "data/sample/images/Cloud Computing Architecture.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cloud_Computing_Architecture.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-041",
+    "query": "What are the three main layers shown in this data warehouse architecture diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Data warehouse architecture.jpg",
+    "image_filename": "Data warehouse architecture.jpg",
+    "reference_answer": "The three layers are the source layer (containing operational systems, external data sources, and flat files), the data warehouse layer (with a staging area for ETL operations and a central store holding summary and raw data organized by subject area), and the presentation layer (providing domain-specific data marts and end-user access tools for reporting, analysis, and data mining). Data flows from left to right across these three tiers.",
+    "grounding_labels": [
+      "data/sample/images/Data warehouse architecture.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Data_warehouse_architecture.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-042",
+    "query": "Describe the three pipeline stages shown in this ELT diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/ELT Diagram.png",
+    "image_filename": "ELT Diagram.png",
+    "reference_answer": "The diagram shows three sequentially connected stages labeled Extract, Load, and Transform. In ELT the raw data is first extracted from source systems, then loaded directly into the target data store before any transformation occurs, inverting the traditional ETL order. This approach leverages the processing power of the destination system—typically a cloud data warehouse—to perform transformations at scale after ingestion.",
+    "grounding_labels": [
+      "data/sample/images/ELT Diagram.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/ELT_Diagram.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-043",
+    "query": "What three tiers are labeled in this data warehouse architecture diagram, and what does each tier contain?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/3layer-architecture.png",
+    "image_filename": "3layer-architecture.png",
+    "reference_answer": "The three tiers are Sources (operational systems, external data, and flat files feeding through a staging area with ETL tools), Data Warehouse (a central subject-oriented store containing summary data and raw data), and Presentation (numbered data marts labeled 1, 2, and 3 serving as subject-specific views, with access tools for reporting, analysis, and data mining). Data flows from sources through the warehouse into the presentation layer.",
+    "grounding_labels": [
+      "data/sample/images/3layer-architecture.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/3layer-architecture.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-044",
+    "query": "Describe the simplified data warehouse architecture shown in this diagram.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/1layer-architecture.png",
+    "image_filename": "1layer-architecture.png",
+    "reference_answer": "The diagram shows a single-tier data warehouse where source systems (operational systems, external data, flat files) connect directly to a central data warehouse containing metadata, summary data, and raw data. The warehouse is directly linked to presentation tools including reporting, analysis, and data mining tools, without separate data mart intermediaries. This simplified one-layer design consolidates all analytical access through a single warehouse layer.",
+    "grounding_labels": [
+      "data/sample/images/1layer-architecture.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/1layer-architecture.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-045",
+    "query": "What two processing layers are shown in this Lambda Architecture diagram, and how do they feed the serving layer?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Diagram of Lambda Architecture (Druid data store).png",
+    "image_filename": "Diagram of Lambda Architecture (Druid data store).png",
+    "reference_answer": "The diagram shows a batch layer and a speed (real-time) layer operating in parallel. The batch layer processes the complete historical dataset at high latency to produce accurate precomputed views, while the speed layer processes only recent incoming data with low latency to fill the recency gap. Both layers feed their results into a serving layer—identified in the diagram as a Druid data store—which merges the views to answer low-latency queries.",
+    "grounding_labels": [
+      "data/sample/images/Diagram of Lambda Architecture (Druid data store).png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Diagram_of_Lambda_Architecture_%28Druid_data_store%29.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-046",
+    "query": "Describe the statistical distribution shown in this diagram and how it is visually represented.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Bell Curve Showing 100 Faces to Illustrate Percentile Rank.png",
+    "image_filename": "Bell Curve Showing 100 Faces to Illustrate Percentile Rank.png",
+    "reference_answer": "The diagram shows a normal (bell curve) distribution illustrated using 100 small face icons arranged in a histogram shape. The faces stack most densely at the center corresponding to the mean, then thin out symmetrically toward both tails, visually encoding the probability density of the normal distribution. Percentile rank markers along the horizontal axis indicate what fraction of the population falls below each score value.",
+    "grounding_labels": [
+      "data/sample/images/Bell Curve Showing 100 Faces to Illustrate Percentile Rank.png"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bell_Curve_Showing_100_Faces_to_Illustrate_Percentile_Rank.png",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-047",
+    "query": "In this box plot, which direction is the distribution skewed, and how is this skew visible in the diagram?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Box and whisker plot showing skewed left distribution.jpg",
+    "image_filename": "Box and whisker plot showing skewed left distribution.jpg",
+    "reference_answer": "The distribution is skewed left (negatively skewed). This is visible because the left whisker is longer than the right whisker, and the median line inside the box sits closer to the upper quartile (Q3) than to the lower quartile (Q1). These two asymmetries together indicate that the tail of the distribution extends further in the negative direction while most values cluster toward higher values.",
+    "grounding_labels": [
+      "data/sample/images/Box and whisker plot showing skewed left distribution.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Box_and_whisker_plot_showing_skewed_left_distribution.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-048",
+    "query": "What visual features of this box plot indicate a right-skewed distribution?",
+    "query_type": "factual",
+    "image_path": "data/sample/images/Box and whisker plot showing skewed right distribution.jpg",
+    "image_filename": "Box and whisker plot showing skewed right distribution.jpg",
+    "reference_answer": "The right skew is indicated by a longer right whisker extending further above the box than the left whisker extends below it, and by the median line being positioned closer to the lower quartile (Q1) than to the upper quartile (Q3). This asymmetry shows that the tail of the distribution stretches in the positive direction, with the bulk of the data concentrated at lower values.",
+    "grounding_labels": [
+      "data/sample/images/Box and whisker plot showing skewed right distribution.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Box_and_whisker_plot_showing_skewed_right_distribution.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-049",
+    "query": "Describe the box plot shown in this diagram and what distribution it represents.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Box and whisker plot showing normal distribution. 01.jpg",
+    "image_filename": "Box and whisker plot showing normal distribution. 01.jpg",
+    "reference_answer": "The box plot shows a symmetric distribution consistent with a normal distribution. The median line is centered within the box approximately equidistant from Q1 and Q3, and the two whiskers are approximately equal in length extending symmetrically from the box. This balanced geometry around the median indicates that the data is evenly distributed on both sides, a characteristic feature of a bell-shaped normal distribution.",
+    "grounding_labels": [
+      "data/sample/images/Box and whisker plot showing normal distribution. 01.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Box_and_whisker_plot_showing_normal_distribution._01.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  },
+  {
+    "id": "mmrag-v0-050",
+    "query": "Describe the scatter plot shown in this diagram and the relationship it is designed to illustrate.",
+    "query_type": "visual_description",
+    "image_path": "data/sample/images/Scatter plot.jpg",
+    "image_filename": "Scatter plot.jpg",
+    "reference_answer": "The diagram shows a scatter plot with individual data points plotted as markers positioned according to their values on two perpendicular axes representing two variables. The spatial arrangement of points across the plot reveals the nature and strength of the relationship between the two variables—an upward trend from left to right indicates positive correlation, a downward trend indicates negative correlation, and a cloud with no discernible pattern suggests no linear relationship.",
+    "grounding_labels": [
+      "data/sample/images/Scatter plot.jpg"
+    ],
+    "wikimedia_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Scatter_plot.jpg",
+    "license": "CC BY-SA 4.0",
+    "source": "Wikimedia Commons"
+  }
+]
