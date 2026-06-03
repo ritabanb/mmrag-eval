@@ -10,3 +10,4 @@ build/
 scripts/thumbnails/
 scripts/wikimedia_candidates.json
 scripts/__pycache__/
+scripts/review_tool.html

@@ -281,11 +281,11 @@
   },
   {
     "id": "mmrag-v0-021",
-    "query": "Describe the information presented in this multivariate statistical analysis reference table.",
-    "query_type": "visual_description",
+    "query": "What are the three types of dependent variable outcome listed in this table, and which regression method corresponds to each?",
+    "query_type": "factual",
     "image_path": "data/sample/images/Table Explaining When to Use Different Multi-variate Statistical Analyses.jpg",
     "image_filename": "Table Explaining When to Use Different Multi-variate Statistical Analyses.jpg",
-    "reference_answer": "The table provides a structured guide for selecting the appropriate multivariate statistical method based on the characteristics of the variables involved, such as their measurement scale and the number of dependent and independent variables. Rows and columns organize combinations of variable types and study designs, with each cell naming the recommended technique. The table allows researchers to quickly identify the correct analysis for a given data structure.",
+    "reference_answer": "The table is titled 'Types of Multi-variate Analysis' and lists three outcome types in the Dependent Variable (Outcome) column: Continuous (corresponding to Linear Regression), Categorical (corresponding to Logistic Regression), and Time-to-event (corresponding to Survival Analysis Regression). The single organizing axis is the measurement scale of the outcome variable — the table does not include a separate independent variable axis.",
     "grounding_labels": [
       "data/sample/images/Table Explaining When to Use Different Multi-variate Statistical Analyses.jpg"
     ],
@@ -295,11 +295,11 @@
   },
   {
     "id": "mmrag-v0-022",
-    "query": "What two characteristics of the variables determine which bivariate test to select, according to this reference table?",
+    "query": "According to this bivariate analysis table, what statistical test is recommended when both the independent and dependent variables are categorical?",
     "query_type": "factual",
     "image_path": "data/sample/images/Table Explaining When to Use Different Bivariate Statistical Analyses.jpg",
     "image_filename": "Table Explaining When to Use Different Bivariate Statistical Analyses.jpg",
-    "reference_answer": "The table organizes test selection primarily by the measurement scale of each variable (such as nominal, ordinal, or continuous) and the nature of the comparison being made (e.g., two independent groups vs. paired samples). Each cell in the table identifies the recommended statistical test for that combination, such as chi-squared for two nominal variables or a t-test for a continuous outcome with two independent groups.",
+    "reference_answer": "When both the Independent Variable (Exposure) and the Dependent Variable (Outcome) are categorical, the table recommends Chi-square or Fisher's Exact Test. The other three cells show: Logistic regression for a continuous independent with categorical dependent; T-test or ANOVA or non-parametric approaches for a categorical independent with continuous dependent; and Pearson or Spearman Correlation for two continuous variables.",
     "grounding_labels": [
       "data/sample/images/Table Explaining When to Use Different Bivariate Statistical Analyses.jpg"
     ],
@@ -351,11 +351,11 @@
   },
   {
     "id": "mmrag-v0-026",
-    "query": "What are the four cells of the confusion matrix shown in this diagram, and what does each represent?",
+    "query": "How many models are compared in this scatter plot, and what two evaluation metrics are shown on the axes?",
     "query_type": "factual",
     "image_path": "data/sample/images/Confusion matrix.png",
     "image_filename": "Confusion matrix.png",
-    "reference_answer": "The four cells are True Positives (actual positive, predicted positive), True Negatives (actual negative, predicted negative), False Positives (actual negative but predicted positive), and False Negatives (actual positive but predicted negative). The matrix is organized with actual class labels on one axis and predicted labels on the other. These four counts form the basis for computing precision, recall, F1 score, and accuracy.",
+    "reference_answer": "Five models are compared (Model #1 through Model #5), each represented as a distinctly colored and patterned sphere. The x-axis shows Percent of overestimations (False negative) ranging from 0 to 25%, and the y-axis shows Mean Accuracy (%) ranging from 50 to 100%. Model #5 (solid black) achieves the highest mean accuracy of approximately 78% at the lowest false negative rate of approximately 11%, while Models #2, #3, and #4 cluster around 67% accuracy with false negative rates between 15% and 21%.",
     "grounding_labels": [
       "data/sample/images/Confusion matrix.png"
     ],
@@ -547,11 +547,11 @@
   },
   {
     "id": "mmrag-v0-040",
-    "query": "Describe the cloud computing architecture shown in this diagram.",
-    "query_type": "visual_description",
+    "query": "What three cloud deployment models are shown in this diagram, and how do they connect to the Internet?",
+    "query_type": "factual",
     "image_path": "data/sample/images/Cloud Computing Architecture.jpg",
     "image_filename": "Cloud Computing Architecture.jpg",
-    "reference_answer": "The diagram illustrates a layered cloud computing architecture with client devices connecting through the internet to a stack of cloud service layers. The service layers are arranged vertically and typically represent Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) models. Shared physical hardware resources such as servers and storage underpin all service tiers at the bottom of the stack.",
+    "reference_answer": "The diagram shows three cloud deployment models: Public Cloud (labeled 'The Cloud Provider', depicted with desktop workstations on the left), Hybrid Cloud (in the center, depicted with server hardware), and Private Cloud (labeled 'Enterprise', on the right with server stacks). All three connect to the Internet — shown as a large central cloud shape — via bidirectional dashed arrows. Two SME (Small and Medium Enterprise) server towers also connect to the Internet from the top-left and top-right.",
     "grounding_labels": [
       "data/sample/images/Cloud Computing Architecture.jpg"
     ],

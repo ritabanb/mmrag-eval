@@ -59,8 +59,8 @@ Each record in `dataset.json` has the following fields:
 
 | Query type | Count |
 |---|---|
-| `factual` | 27 |
-| `visual_description` | 23 |
+| `factual` | 29 |
+| `visual_description` | 21 |
 
 ---
 
