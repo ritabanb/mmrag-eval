@@ -55,6 +55,21 @@ Each record in `dataset.json` has the following fields:
 
 ---
 
+## Annotation Quality
+
+All 50 records in v0.1 were manually reviewed by the dataset author using a purpose-built review tool that displayed each image alongside its query and reference answer side by side.
+
+4 records were corrected during review:
+
+- **mmrag-v0-021:** reference answer rewritten to name the exact regression methods visible in the image (Linear Regression, Logistic Regression, Survival Analysis Regression)
+- **mmrag-v0-022:** reference answer updated to name all four test recommendations verbatim from the image (Chi-square / Fisher's Exact Test, Logistic regression, T-test / ANOVA, Pearson / Spearman Correlation)
+- **mmrag-v0-026:** query and answer completely rewritten — the Wikimedia Commons filename ("Confusion matrix") did not match the image content; the image is a scatter plot of 5 models by false negative rate vs mean accuracy, and the original annotation described TP/FP/TN/FN cells that do not exist in the image
+- **mmrag-v0-040:** answer corrected to describe the actual visible architecture (Public Cloud, Hybrid Cloud, and Private Cloud connected through an Internet node to SME servers) rather than IaaS/PaaS/SaaS service layers that are not present in the image
+
+Record 026 represents the most important catch: the Wikimedia Commons filename did not match the image content, and the original annotation described diagram elements that do not exist in the image. In a grounding benchmark, a fabricated reference answer silently corrupts every fidelity score computed against that record. Manual review is the only reliable way to catch this class of error in image datasets.
+
+---
+
 ## Query Type Breakdown
 
 | Query type | Count |
@@ -108,7 +123,7 @@ mmrag-eval project and are released under the same MIT license as the rest of th
 
 | Version | Samples | Status | Notes |
 |---|---|---|---|
-| **v0.1** | 50 | ✅ Released | Wikimedia Commons images, CC BY-SA 4.0, manually reviewed annotations |
+| **v0.1** | 50 | ✅ Released | Wikimedia Commons images, CC BY-SA 4.0, all 50 records manually reviewed by author |
 | v0.2 | 200 | Planned | Human-verified grounding labels; multi-image queries |
 | v1.0 | 1000 | Planned | HuggingFace Hub release; public leaderboard |
 
