@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ritabanb/mmrag-eval/pulls)
 
+📝 **Blog post:** [Beyond Text: Why Multimodal RAG Needs Its Own Evaluation Benchmark](https://medium.com/@ritabanb/beyond-text-why-multimodal-rag-needs-its-own-evaluation-benchmark-639d05a9762f)
+
 **mmrag-eval** is an open-source benchmark for evaluating the grounding quality of multimodal Retrieval-Augmented Generation (RAG) systems — measuring not just whether a system retrieves images, but whether its generated answers stay within, and faithfully reflect, the visual evidence it retrieved.
 
 ---
