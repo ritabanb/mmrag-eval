@@ -20,6 +20,22 @@ mmrag-eval provides three independent, composable metrics that together give a p
 
 ---
 
+## Dataset
+
+A sample dataset of 50 annotated image–query pairs is available on HuggingFace:
+
+```python
+from datasets import load_dataset
+dataset = load_dataset("ritaban-b/mmrag-eval", split="train")
+```
+
+→ [ritaban-b/mmrag-eval on HuggingFace](https://huggingface.co/datasets/ritaban-b/mmrag-eval)
+
+All 50 records were manually reviewed by the author.
+See the [dataset card](https://huggingface.co/datasets/ritaban-b/mmrag-eval) for schema, category breakdown, and annotation quality notes.
+
+---
+
 ## Metrics
 
 ### 1. Grounding Fidelity (`grounding_fidelity`)
