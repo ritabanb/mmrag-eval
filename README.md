@@ -62,7 +62,7 @@ Penalizes retrieval pipelines that return near-duplicate images. Uses perceptual
 ## Quickstart
 
 ```bash
-pip install git+https://github.com/ritabanb/mmrag-eval.git
+pip install mmrag-eval
 ```
 
 ```python
