@@ -1,0 +1,2848 @@
+{
+  "aggregated": {
+    "clip": {
+      "ndcg_at_5": 0.45344465968273895,
+      "recall_at_5": 0.5858585858585859,
+      "n": 198
+    },
+    "bm25": {
+      "ndcg_at_5": 0.8586278327182713,
+      "recall_at_5": 0.9242424242424242,
+      "n": 198
+    }
+  },
+  "by_category": {
+    "clip": {
+      "classical_ml": {
+        "ndcg_at_5": 0.4557962542233736,
+        "recall_at_5": 0.6410256410256411,
+        "n": 39
+      },
+      "evaluation_metrics": {
+        "ndcg_at_5": 0.5404579937780902,
+        "recall_at_5": 0.6585365853658537,
+        "n": 41
+      },
+      "neural_networks": {
+        "ndcg_at_5": 0.2996033871873157,
+        "recall_at_5": 0.40540540540540543,
+        "n": 37
+      },
+      "statistical_concepts": {
+        "ndcg_at_5": 0.3428124549887157,
+        "recall_at_5": 0.4444444444444444,
+        "n": 36
+      },
+      "systems_pipelines": {
+        "ndcg_at_5": 0.5871252722676581,
+        "recall_at_5": 0.7333333333333333,
+        "n": 45
+      }
+    },
+    "bm25": {
+      "classical_ml": {
+        "ndcg_at_5": 0.8454404649529544,
+        "recall_at_5": 0.9230769230769231,
+        "n": 39
+      },
+      "evaluation_metrics": {
+        "ndcg_at_5": 0.8570974435145293,
+        "recall_at_5": 0.926829268292683,
+        "n": 41
+      },
+      "neural_networks": {
+        "ndcg_at_5": 0.731666803842408,
+        "recall_at_5": 0.8648648648648649,
+        "n": 37
+      },
+      "statistical_concepts": {
+        "ndcg_at_5": 0.9203036042658739,
+        "recall_at_5": 0.9444444444444444,
+        "n": 36
+      },
+      "systems_pipelines": {
+        "ndcg_at_5": 0.9265008014492513,
+        "recall_at_5": 0.9555555555555556,
+        "n": 45
+      }
+    }
+  },
+  "per_sample": {
+    "clip": [
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-001",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-002",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-003",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-004",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-005",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-006",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-007",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-008",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-009",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-010",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-011",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-012",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-013",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-014",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-015",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-016",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-017",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-018",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-019",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-020",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-021",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-022",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-023",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-024",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-025",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-026",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-027",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-028",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-029",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-030",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-031",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-032",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-033",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-034",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-035",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-036",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-037",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-038",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-039",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-040",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-041",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-042",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-043",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-044",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-045",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-046",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-047",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-048",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-049",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-050",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-001",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-002",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-003",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-004",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-005",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-006",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-007",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-009",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-010",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-011",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-013",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-014",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-015",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-016",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-018",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-022",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-023",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-024",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-025",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-026",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-029",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-032",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-033",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-034",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-035",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-037",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-038",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-039",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-040",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-042",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-043",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-044",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-045",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-047",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-048",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-049",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-050",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-051",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-052",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-054",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-055",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-056",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-057",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-058",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-059",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-060",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-061",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-063",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-064",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-066",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-067",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-069",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-070",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-071",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-072",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-073",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-075",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-078",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-079",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-080",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-082",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-083",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-084",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-085",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-086",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-090",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-092",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-093",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-095",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-097",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-098",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-100",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-103",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-104",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-106",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-107",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-108",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-109",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-110",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-111",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-112",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-113",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-120",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-121",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-122",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-123",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-124",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-126",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-127",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-128",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-131",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-134",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-151",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-152",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-153",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-154",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-155",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-156",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-157",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-158",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-159",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-160",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-161",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-163",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-164",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-165",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-166",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-167",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-168",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-169",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-170",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-171",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-172",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-173",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-176",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-177",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-178",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-179",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-180",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-181",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-182",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-183",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-184",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-185",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-186",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-187",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-188",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-189",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-190",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-191",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-192",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-193",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-194",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-195",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-197",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-201",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-203",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-204",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-205",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-206",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-209",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-210",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-211",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-212",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-214",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-215",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-218",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-219",
+        "category": "neural_networks"
+      }
+    ],
+    "bm25": [
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-001",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-002",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-003",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-004",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-005",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-006",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-007",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-008",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-009",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-010",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-011",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-012",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-013",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-014",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-015",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-016",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-017",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-018",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-019",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-020",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-021",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-022",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-023",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-024",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-025",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-026",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-027",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-028",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-029",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-030",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-031",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-032",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-033",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-034",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-035",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-036",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-037",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-038",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-039",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-040",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-041",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-042",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-043",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-044",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-045",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-046",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-047",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v0-048",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-049",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v0-050",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-001",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-002",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-003",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-004",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-005",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-006",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-007",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-009",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-010",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-011",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-013",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-014",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-015",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-016",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-018",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-022",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-023",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-024",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-025",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-026",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-029",
+        "category": "neural_networks"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-032",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-033",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-034",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-035",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-037",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-038",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-039",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-040",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-042",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-043",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-044",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-045",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-047",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-048",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-049",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-050",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-051",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-052",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-054",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-055",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-056",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-057",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-058",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-059",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-060",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-061",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-063",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-064",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-066",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "k": 5,
+        "id": "mmrag-v1-067",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-069",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-070",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-071",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-072",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-073",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-075",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-078",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-079",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-080",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-082",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-083",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-084",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-085",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-086",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-090",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-092",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-093",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-095",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-097",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-098",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-100",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-103",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-104",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-106",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-107",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-108",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-109",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-110",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-111",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-112",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-113",
+        "category": "statistical_concepts"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-120",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-121",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-122",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-123",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-124",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-126",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-127",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-128",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-131",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-134",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-151",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-152",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.43067655807339306,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-153",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-154",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-155",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-156",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-157",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-158",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-159",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-160",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-161",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-163",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-164",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-165",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-166",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-167",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-168",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-169",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-170",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-171",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-172",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-173",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-176",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-177",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-178",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-179",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-180",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-181",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-182",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-183",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-184",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-185",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-186",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-187",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-188",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-189",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-190",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-191",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-192",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-193",
+        "category": "systems_pipelines"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-194",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-195",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-197",
+        "category": "evaluation_metrics"
+      },
+      {
+        "ndcg_at_k": 0.38685280723454163,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-201",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-203",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-204",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-205",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-206",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-209",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-210",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-211",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-212",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-214",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 0.6309297535714575,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-215",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-218",
+        "category": "classical_ml"
+      },
+      {
+        "ndcg_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "k": 5,
+        "id": "mmrag-v1-219",
+        "category": "neural_networks"
+      }
+    ]
+  }
+}
