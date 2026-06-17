@@ -42,20 +42,22 @@ See the [dataset card](https://huggingface.co/datasets/ritaban-b/mmrag-eval) for
 
 ### 1. Grounding Fidelity (`grounding_fidelity`)
 
-Measures how well a generated answer is grounded in the retrieved image rather than hallucinated. Uses CLIP image–text similarity as a proxy score. A higher score means the answer text is more consistent with the image's semantic content.
+Measures how well a generated answer is grounded in the retrieved image rather than hallucinated. Computes cosine similarity between normalized CLIP image and text feature vectors, shifted from [−1, 1] to [0, 1]. The raw `logits_per_image` output is intentionally not used — it is scaled by ~100 and would saturate the score.
+
+**Reference answer comparison:** pass an optional `reference_answer` to also receive `relative_fidelity` — the ratio of the generated answer's grounding score to the reference answer's grounding score. Returns 0.0 when the reference answer's own fidelity is zero.
 
 **Hook for GPT-4V:** pass a custom `grounding_fn(image_path, text) -> float` to replace CLIP with any vision-language judge.
 
 ### 2. Retrieval Quality (`retrieval_quality`)
 
-Measures the standard IR effectiveness of the image retrieval step:
+Measures the standard IR effectiveness of the image retrieval step using binary relevance (each retrieved image is either a ground-truth match or not):
 
-- **nDCG@K** — normalized Discounted Cumulative Gain at K: rewards retrieving relevant images at higher ranks.
+- **nDCG@K** — normalized Discounted Cumulative Gain at K: rewards retrieving relevant images at higher ranks. Ideal DCG is computed over min(|relevant|, K) positions.
 - **Recall@K** — fraction of ground-truth relevant images recovered in the top-K results.
 
 ### 3. Diversity (`diversity`)
 
-Penalizes retrieval pipelines that return near-duplicate images. Uses perceptual hashing (pHash) to detect visually similar images and returns a score in [0, 1], where 1.0 means all retrieved images are visually distinct.
+Scores retrieval pipelines on visual variety using perceptual hashing (pHash). Two images are near-duplicates when their Hamming distance is below a configurable threshold (default: 10). The score is `1 − duplicate_pairs / total_pairs` across all pairwise comparisons, in [0, 1]: 1.0 when every pair is distinct, 0.0 when every pair is a duplicate. Returns 1.0 by definition when 0 or 1 images are retrieved.
 
 ---
 
