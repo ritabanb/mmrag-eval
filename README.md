@@ -162,6 +162,42 @@ results = evaluate(samples, retrieved_images, generated_answers, grounding_fn=gp
 
 ---
 
+## Reproducing Baseline Results
+
+The results in Table 1 and Table 2 of the paper are produced by three scripts that must be run in order. No API keys are required — the baseline scripts run entirely locally. (The dataset construction pipeline does require API keys, but that is separate; see `scripts/dataset_construction/README.md`.)
+
+Install the `baseline` extra first:
+
+```bash
+pip install "mmrag-eval[baseline]"
+```
+
+**Step 1 — CLIP retrieval**
+
+```bash
+python scripts/baseline_clip.py
+```
+
+Downloads `openai/clip-vit-base-patch32` on first run (~350 MB), embeds all 198 images, and writes `results/clip_image_embeddings.pt` (cached on subsequent runs) and `results/clip_retrieved.json`. Allow 1–2 minutes on CPU for the initial embedding pass; subsequent runs skip re-embedding and finish in seconds.
+
+**Step 2 — BM25 retrieval**
+
+```bash
+python scripts/baseline_bm25.py
+```
+
+Builds a BM25 index over the `reference_answer` field of all 198 records and writes `results/bm25_retrieved.json`. Completes in under a second.
+
+**Step 3 — Score and aggregate**
+
+```bash
+python scripts/run_baseline_eval.py
+```
+
+Reads both retrieved files, scores with `retrieval_quality` at k=5, prints per-category and overall results, and writes `results/baseline_results.json` — the source of the numbers reported in the paper.
+
+---
+
 ## Contributing
 
 Contributions are welcome — especially new metrics, dataset loaders, and evaluation integrations.
